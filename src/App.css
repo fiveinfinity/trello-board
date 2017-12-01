@@ -1,0 +1,42 @@
+.App {
+	display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ECEEEE;
+}
+
+.column-container {
+	width: 20%;
+    background-color: white;
+    height: 80%;
+    margin-top: 100px;
+}
+
+.tile-container {
+	height: 50px;
+	display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+.tile {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-container {
+	height: 50px;
+}
+
+.title {
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	text-align: center;
+	color: white;
+}
